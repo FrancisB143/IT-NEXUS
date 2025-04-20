@@ -1,2 +1,1 @@
-# IT-NEXUS
-IT Nexus is a project created for our 2nd-year requirements. It is a digital platform that helps connect people with technology by sharing simple and interesting tech content.
+As technology becomes increasingly integral to our daily lives, IT Nexus seeks to bridge the gap between innovation and the masses through engaging journalistic writing. Our mission is to make complex tech concepts relatable and accessible, even for those with limited interest or background in the field. Beyond providing insightful content, we aim to create an inclusive digital platform that empowers both curious readers and passionate writers alike.
