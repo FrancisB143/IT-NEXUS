@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFDF;
+    color: #212529;
+    line-height: 1.6;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+.header h1 {
+    color: rgb(197, 188, 67);
+    margin: 0;
+}
+.header p {
+    color: #6c757d;
+    margin: 5px 0 0;
+}
+.signup-form {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+h2 {
+    color: rgb(197, 188, 67);
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 96.5%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: rgb(124, 195, 231);
+    outline: none;
+}
+.error {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+.error ul {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+.submit-btn {
+    background-color: rgb(124, 195, 231);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+.submit-btn:hover {
+    background-color: #B1D9EC;
+}
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+}
+.login-link a {
+    color: rgb(124, 195, 231);
+    text-decoration: none;
+}
+.login-link a:hover {
+    text-decoration: underline;
+}

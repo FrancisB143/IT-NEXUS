@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.login-container {
+    background-color: white;
+    border: 2px solid #FDFD96;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 420px;
+    padding: 40px;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-header h1 {
+    color:rgb(197, 188, 67);
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.login-header p {
+    color: #9BCBE3;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fdfdfd;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #C8EDF7;
+    box-shadow: 0 0 0 3px rgba(200, 237, 247, 0.5);
+    outline: none;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color:rgb(124, 195, 231);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #B1D9EC;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.login-footer a {
+    color: #0077aa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #dc3545;
+    background-color: #fff0f0;
+    border: 1px solid #ffc4c4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.admin-btn {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    margin-top: 5px;
+}

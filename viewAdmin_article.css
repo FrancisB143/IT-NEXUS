@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px;
+    background-color: #FFFFDF;
+}
+
+h1 {
+    color: rgb(124, 195, 231);
+    margin-bottom: 20px;
+}
+
+.article-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.article-header {
+    margin-bottom: 20px;
+}
+
+.article-header h2 {
+    margin-bottom: 10px;
+}
+
+.article-header small {
+    color: #6c757d;
+}
+
+.article-content {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.article-image {
+    max-width: 300px; 
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.article-topic {
+    font-weight: bold;
+    color: rgb(124, 195, 231);
+    margin-top: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(124, 195, 231);
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

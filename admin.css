@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFDF;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: rgb(124, 195, 231);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(197, 188, 67);
+}
+
+.sidebar a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    padding: 40px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+.article-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-item:last-child {
+    border-bottom: none;
+}
+
+.btn {
+    background-color: rgb(124, 195, 231);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #B1D9EC;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #bd2130;
+}
+
+.logout {
+    display: inline-block;
+    color: rgb(124, 195, 231);
+    text-decoration: none;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+.admin-name {
+    font-weight: bold;
+    color: rgb(124, 195, 231);
+}

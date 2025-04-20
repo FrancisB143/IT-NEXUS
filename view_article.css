@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #FFFFDF;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    color: #333;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: rgb(124, 195, 231);
+}
+
+.article-meta {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.article-topic {
+    font-weight: bold;
+    color: rgb(124, 195, 231);
+    margin-bottom: 20px;
+}
+
+.article-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.article-content {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(124, 195, 231);
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
