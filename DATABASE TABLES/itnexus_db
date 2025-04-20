@@ -37,3 +37,72 @@ CREATE TABLE `contributors` (
  UNIQUE KEY `email` (`email`),
  UNIQUE KEY `username` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+
+
+
+
+DUMMY DATA:
+    INSERT INTO articles (
+    id, title, content, contributor_id, created_at, image_url, status, topic
+    ) VALUES (
+    1,
+    '🧠 What Is AI, Really? (And Should You Be Worried?)',
+    'Artificial Intelligence—or AI—is one of those terms that sounds complicated, futuristic, and maybe even a little scary. But here’s the truth: AI is just a fancy way of saying “machines that learn from patterns.”\nFor example, when your phone suggests the next word while you’re typing, or when Netflix recommends a show you actually like—that’s AI at work. It studies your behavior, spots patterns, and tries to predict what you want.\nSo should you be worried about AI taking over the world? Probably not. The real concern isn’t evil robots—it’s how we use AI. Are companies using your data responsibly? Are decisions being made fairly? These are the real questions we should be asking.\nThe good news is: AI isn’t magic. It’s made by people, and that means we can shape how it works. Staying curious and informed is the best way to make sure AI helps us, not harms us.',
+    1,
+    CURRENT_TIMESTAMP,
+    'uploads/ai.jpg',
+    'pending',
+    'AI'
+    );
+
+    INSERT INTO articles (
+    id, title, content, contributor_id, created_at, image_url, status, topic
+    ) VALUES (
+    2,
+    '🔐 Cybersecurity Isn’t Just for Hackers in Hoodies',
+    'When you hear the word “cybersecurity,” you might picture some guy in a hoodie, typing furiously in a dark room. Cool for movies, sure—but in real life, cybersecurity is for everyone.\nIf you’ve ever:\nUsed public Wi-Fi\n\nGotten a weird email asking you to click a link\n\nReused the same password for multiple accounts\n\n…then you’ve already been part of a cybersecurity story.\nCybersecurity is just a fancy term for “staying safe online.” It’s about locking your digital doors the same way you lock your front one. And you don’t need to be a tech wizard to do it.\nStart simple:\nUse strong, unique passwords.\n\nTurn on two-factor authentication.\n\nThink twice before clicking on suspicious links.\n\nThe internet is an amazing place—but just like in real life, it’s smart to take some precautions.',
+    1,
+    CURRENT_TIMESTAMP,
+    'uploads/cybersecurity.jpg',
+    'pending',
+    'Cybersecurity'
+    );
+
+    INSERT INTO articles (
+    id, title, content, contributor_id, created_at, image_url, status, topic
+    ) VALUES (
+    3,
+    '⛓️ Blockchain Explained Like You’re Five (Almost)',
+    'Let’s break it down. Imagine you and your friends keep a notebook. Every time someone gives or trades something, you write it down. "Alex gave Sam 1 coin." Everyone gets a copy of the notebook, and once you write something in it, no one can erase it or fake it. That’s the basic idea behind blockchain.\nIt’s a digital system that records information in a way that’s secure, transparent, and can’t be easily changed. And while most people hear about it because of Bitcoin or cryptocurrency, blockchain has way more uses.\nIt can:\nTrack where your food came from\n\nMake voting more secure\n\nProve you own a piece of digital art (aka NFTs)\n\nThink of it like a shared, tamper-proof record book for anything you want to track. That’s why people are calling it a “trust machine.” And honestly? It’s kind of genius.',
+    1,
+    CURRENT_TIMESTAMP,
+    'uploads/blockchain.jpg',
+    'pending',
+    'Blockchain'
+    );
+
+    INSERT INTO articles (
+    id, title, content, contributor_id, created_at, image_url, status, topic
+    ) VALUES (
+    4,
+    '🤖 5 Ways AI Is Already in Your Life (And You Might Not Notice)',
+    'You might think AI is something you’ll encounter in the far future, like flying cars or robot chefs. But the truth is: AI is already all around you—and you’ve probably used it today without even realizing.\nHere are 5 everyday places where AI is quietly doing its thing:\nEmail Spam Filters\nEver wonder how junk emails magically avoid your inbox? That’s AI sorting the good stuff from the garbage.\n\nCamera Features\nBlurred backgrounds in selfies? AI recognizes your face and adjusts the focus.\n\nNavigation Apps\nGoogle Maps predicting traffic and giving you faster routes? AI crunching real-time data.\n\nVoice Assistants\nSiri, Alexa, or Google Assistant? They “understand” your voice using—you guessed it—AI.\n\nOnline Shopping Suggestions\nThose “You might also like…” sections? AI guesses your taste based on what others like you clicked on.\n\nSo yeah, the future isn’t coming—it’s already here. And it’s kind of cool.',
+    1,
+    CURRENT_TIMESTAMP,
+    'uploads/ai2.jpg',
+    'pending',
+    'AI'
+    );
+
+    INSERT INTO articles (
+    id, title, content, contributor_id, created_at, image_url, status, topic
+    ) VALUES (
+    5,
+    '💡 Is Tech Moving Too Fast? Here\'s How to Keep Up',
+    'Let’s be real: it feels like every week there’s a new app, a new tool, or a new “must-learn” tech skill. It can be exciting—but also exhausting.\nHere’s the truth: you don’t have to know everything. You just have to stay curious.\nStart small:\nPick one topic that interests you. Maybe it’s AI, cybersecurity, or even space tech.\n\nFollow a few newsletters, YouTube channels, or blogs about it.\n\nPlay around. Try tools. Break things. Learn by doing.\n\nThe key is consistency, not perfection. Learning about tech is like learning a new language—you’ll mess up at first, but you’ll get better every day.\nAnd remember: you don’t have to become an expert overnight. Even understanding the basics makes you part of the conversation. And that’s powerful.',
+    1,
+    CURRENT_TIMESTAMP,
+    'uploads/technews.jpg',
+    'pending',
+    'Tech News'
+    );

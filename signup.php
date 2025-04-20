@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             VALUES ('$fullname', '$section', '$idnum', '$email', '$username', '$password')";
 
     if ($conn->query($sql)) {
-        header("Location: login.php");
+        header("Location: contributor-login.php");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </form>
 
             <div class="login-link">
-                Already have an account? <a href="login.php">Log in here</a>
+                Already have an account? <a href="contributor-login.php">Log in here</a>
             </div>
         </div>
     </div>
