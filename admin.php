@@ -49,16 +49,18 @@
                             Published on <?= date("F j, Y, g:i a", strtotime($row['created_at'])) ?></small>
                         </div>
                         <div>
+                            <a href="viewAdmin_article.php?id=<?= $row['id'] ?>" class="btn">View</a>
                             <a href="approve_article.php?id=<?= $row['id'] ?>" class="btn">Approve</a>
                             <a href="reject_article.php?id=<?= $row['id'] ?>" class="btn btn-delete">Reject</a>
                         </div>
                     </li>
                 <?php endwhile; ?>
             </ul>
-
+            
         <?php else: ?>
             <p>No articles to approve.</p>
         <?php endif; ?>
     </div>
+
 </body>
 </html>

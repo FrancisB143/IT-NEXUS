@@ -60,7 +60,7 @@
             <p><?= nl2br(htmlspecialchars($article['content'])) ?></p>
         </div>
 
-        <a href="manage-content.php" class="back-link">&larr; Back to Articles</a>
+        <a href="admin.php" class="back-link">&larr; Back to Pending Articles</a>
     </div>
 
 </body>
