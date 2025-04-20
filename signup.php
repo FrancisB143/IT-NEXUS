@@ -34,13 +34,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Become a Contributor | IT NEXUS</title>
+    <title>Become a Contributor | The Technologue</title>
     <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>IT NEXUS</h1>
+            <h1>The Technologue</h1>
             <p>Join our community of tech contributors</p>
         </div>
 

@@ -31,13 +31,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - IT NEXUS</title>
+    <title>Login - The Technologue</title>
     <link rel="stylesheet" href="contributor-login.css">
 </head>
 <body>
     <div class="login-container">
         <div class="login-header">
-            <h1>IT NEXUS</h1>
+            <h1>The Technologue</h1>
             <p>Login to your contributor account</p>
         </div>
 

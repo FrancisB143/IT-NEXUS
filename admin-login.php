@@ -39,13 +39,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login - IT NEXUS</title>
+    <title>Admin Login - The Technologue</title>
     <link rel="stylesheet" href="admin-login.css">
 </head>
 <body>
 <div class="login-container">
     <div class="login-header">
-        <h1>IT NEXUS</h1>
+        <h1>The Technologue</h1>
         <p>Login to your admin account</p>
     </div>
 

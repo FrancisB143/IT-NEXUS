@@ -21,13 +21,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT NEXUS</title>
+    <title>The Technologue</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
     <div class="main-content">
-        <h1>IT NEXUS</h1>
+        
+        <div class="logo-header">
+            <img src="logo/technologueLogo.png" alt="Logo" class="logo">
+            <h1>The Technologue</h1> 
+        </div>
+
+        <h4>Bridging the Gaps Between Science and the People</h4>
         <p style="grid-column: 1 / -1; margin-top: 0;">LATEST NEWS ABOUT COMPUTERS, CYBERSECURITY AND NETWORKING</p>
 
         <?php while ($row = $result->fetch_assoc()): ?>

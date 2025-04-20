@@ -23,14 +23,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard - IT NEXUS</title>
+    <title>Admin Dashboard - The Technologue</title>
     <link rel="stylesheet" href="admin.css">
 </head>
 <body>
 
     <div class="sidebar">
         <h2>Admin Dashboard</h2>
-        <a href="admin.php">Approve Articles</a>
+        <a href="admin.php" class="active">Approve Articles</a>
         <a href="manage-content.php">Manage Content</a>
         <a href="index.php" class="logout">Logout</a>
     </div>
@@ -44,19 +44,21 @@
                 <?php while ($row = $result->fetch_assoc()): ?>
                     <li class="article-item">
                         <div>
-                            <strong><?= htmlspecialchars($row['title']) ?></strong><br>
+                            <strong>
+                                <a href="viewAdmin_article.php?id=<?= $row['id'] ?>" class="article-link">
+                                    <?= htmlspecialchars($row['title']) ?>
+                                </a>
+                            </strong><br>
                             <small>By <?= htmlspecialchars($row['fullname']) ?> | 
                             Published on <?= date("F j, Y, g:i a", strtotime($row['created_at'])) ?></small>
                         </div>
                         <div>
-                            <a href="viewAdmin_article.php?id=<?= $row['id'] ?>" class="btn">View</a>
                             <a href="approve_article.php?id=<?= $row['id'] ?>" class="btn">Approve</a>
                             <a href="reject_article.php?id=<?= $row['id'] ?>" class="btn btn-delete">Reject</a>
                         </div>
                     </li>
                 <?php endwhile; ?>
             </ul>
-            
         <?php else: ?>
             <p>No articles to approve.</p>
         <?php endif; ?>
